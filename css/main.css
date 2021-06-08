@@ -1,0 +1,55 @@
+body{
+    color: rbga(0,0,0,0.87);
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+    font-family:  'Roboto', arial, sans-serif;
+    align-items:center;
+    font-size: 13px;
+    margin-left:-26px;
+    margin-top:2px;
+}   
+nav ul li {
+    padding: 10px;
+    display:flex;
+}
+nav ul li a{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#about{
+    font-size:14px;
+    font-family:   arial, sans-serif;
+}
+#store{
+    font-size:14px;
+    font-family:   arial, sans-serif;
+}
+#gmail{
+    margin-left:auto;
+}
+.material-icons{
+    color: gray;
+    display:flex;
+    
+}
+li input{
+    width:100px;
+    border-radius:5px;
+    border-color: rgb(26,115,232);
+    background-color: rgb(26,115,232);
+    color:white;
+    border:none;
+    font-size:14px;
+    
+}
+#sign-in{
+    padding:7px;
+    
+}
