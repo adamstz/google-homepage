@@ -64,14 +64,14 @@ li input{
     display:flex;
     margin:auto;
     margin-top: 30px;
-    width:70%;
-    height: 45px;
-    border-radius:20px;
-    border: 1px solid rgb(223,225,229);
+    width:560px;
+    height: 47px;
+    border-radius:30px;
+    border: 1px solid rgb(214, 218, 226);
     
 }
 #search-box:hover{
-    
+    box-shadow: 0px 0px 10px  rgb(214, 206, 206);
     
 }
 #search-input{
@@ -79,7 +79,7 @@ li input{
     
     height:43px;
     
-    width:480px;
+    width:470px;
     border:none;
     
 }
@@ -89,7 +89,7 @@ li input{
 #search-icon{
     display:flex;
     align-self:center;
-    margin-left:10px;
+    margin-left:15px;
     margin-right:10px;
     color: rgb(154,160,166);
     font-size:120%;
@@ -98,8 +98,8 @@ li input{
     
     display:flex;
     align-self:center;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:auto;
+    margin-right:15px;
     color:blue;
 }
 
