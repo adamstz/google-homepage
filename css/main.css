@@ -34,7 +34,7 @@ a:hover{
 #gmail{
     margin-left:auto;
 }
-.material-icons{
+#apps-icon{
     color: gray;
     display:flex;
     
@@ -53,3 +53,53 @@ li input{
     padding:7px;
     
 }
+#google-image{
+    
+    margin:auto;
+    margin-top: 70px;
+    
+}
+
+#search-box{
+    display:flex;
+    margin:auto;
+    margin-top: 30px;
+    width:70%;
+    height: 45px;
+    border-radius:20px;
+    border: 1px solid rgb(223,225,229);
+    
+}
+#search-box:hover{
+    
+    
+}
+#search-input{
+    display:flex;
+    
+    height:43px;
+    
+    width:480px;
+    border:none;
+    
+}
+#search-input:focus{
+    outline:none;
+}
+#search-icon{
+    display:flex;
+    align-self:center;
+    margin-left:10px;
+    margin-right:10px;
+    color: rgb(154,160,166);
+    font-size:120%;
+}
+#mic-icon{
+    
+    display:flex;
+    align-self:center;
+    margin-left:10px;
+    margin-right:10px;
+    color:blue;
+}
+
