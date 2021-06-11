@@ -103,6 +103,7 @@ li input:hover{
 }
 .google-buttons{
     display:inline-block;
+    
     box-sizing: content-box;
     height:34px;
     margin-top:30px;
@@ -112,7 +113,7 @@ li input:hover{
     font-style: 'Roboto', arial, sans-serif;
     color: rgb(60, 64,67);
     border-radius:5px;
-   
+    
 }
 .google-buttons:hover{
     border: 1px solid rgb(211, 211, 211);
@@ -131,5 +132,8 @@ li input:hover{
     padding-left:16px;
     padding-right:16px;
     
-    margin-left:260px;
+}
+#submit-box{
+    display:flex;
+    justify-content: center;
 }
