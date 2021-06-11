@@ -1,3 +1,8 @@
+html, body{
+    margin:0px;
+    height:100vh;
+    overflow:hidden;
+}
 
 nav ul {
     display:flex;
@@ -55,8 +60,8 @@ li input:hover{
 #google-image{
     
     margin:auto;
-    margin-top: 70px;
     
+    margin-top:100px;
 }
 
 #search-box{
@@ -69,6 +74,9 @@ li input:hover{
     border: 1px solid rgb(214, 218, 226);
     
 }
+
+   
+
 #search-box:hover{
     box-shadow: 0px 0px 10px  rgb(214, 206, 206);
     
@@ -82,6 +90,7 @@ li input:hover{
     border:none;
     
 }
+
 #search-input:focus{
     outline:none;
 }
@@ -110,7 +119,7 @@ li input:hover{
     background-color: rgb(248, 249, 250);
     border:rgb(248, 249, 250);
     
-    font-style: 'Roboto', arial, sans-serif;
+    font-style: arial, sans-serif;
     color: rgb(60, 64,67);
     border-radius:5px;
     
@@ -136,4 +145,55 @@ li input:hover{
 #submit-box{
     display:flex;
     justify-content: center;
+}
+
+footer ul {
+    position:absolute;
+    bottom:0px;
+    display:flex;
+    flex-direction: row;
+    width:100%; 
+    background-color:#f2f2f2;
+    list-style-type: none;
+    margin-top:auto;
+    height:47px;
+    margin-bottom:0px;
+    
+    align-items:center;
+    padding-left:0px;
+    
+}
+footer ul li{
+    padding-left:10px;
+    padding-right:20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(112,117,122);
+    font-family: sans-serif;
+    font-size:14px;
+}
+#privacy{
+    margin-left:auto;
+}
+#settings{
+    margin-right: 15px;
+    
+}
+#advertising{
+    padding-left:32px;
+}
+
+@media screen and (max-width:550px){
+    #search-box{
+        width:98vw;
+    }
+    #search-input{
+        width:75vw;
+    }
+}
+@media screen and (max-width:600px){
+    footer ul li a{
+        font-size:10px;
+    }
 }
